@@ -1,4 +1,4 @@
--name: Quarkus Maven Test Workflow
+name: Quarkus Maven Test Workflow
 
 on:
   push:
