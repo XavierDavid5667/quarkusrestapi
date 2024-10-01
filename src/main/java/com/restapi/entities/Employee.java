@@ -13,8 +13,8 @@ import lombok.*;
 @Table(name = "employee")
 public class Employee {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int empId;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long empId;
     private String empName;
     private String empAddress;
 }
